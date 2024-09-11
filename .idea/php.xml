@@ -272,6 +272,8 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/masterminds/html5" />
       <path value="$PROJECT_DIR$/wr506d/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/wr506d/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/cocur/slugify" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
