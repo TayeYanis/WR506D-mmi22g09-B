@@ -5,59 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: symfony-setup">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/assets/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/assets/controllers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/assets/controllers/hello_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/compose.override.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/asset_mapper.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/messenger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/routes/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/routes/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/routes/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/importmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Repository/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,6 +291,8 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/masterminds/html5" />
       <path value="$PROJECT_DIR$/wr506d/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/wr506d/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/cocur/slugify" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -351,7 +308,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/symfony-setup&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/demo-pages&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/yanis/buts5/www/WR506D&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -381,8 +338,20 @@
       <workItem from="1725903870851" duration="822000" />
       <workItem from="1725953856273" duration="59000" />
       <workItem from="1725970593592" duration="1474000" />
-      <workItem from="1725972171557" duration="923000" />
+      <workItem from="1725972171557" duration="2477000" />
+      <workItem from="1726051180096" duration="8132000" />
+      <workItem from="1726068878370" duration="891000" />
+      <workItem from="1726069880467" duration="1323000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: symfony-setup">
+      <option name="closed" value="true" />
+      <created>1725973241283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725973241283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
