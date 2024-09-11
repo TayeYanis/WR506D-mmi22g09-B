@@ -5,6 +5,7 @@
     <title>Page de Demo</title>
 </head>
 <body>
-<h1>{{ "now"|date("Y-m-d H:i:s")|format_datetime(pattern="EEEE d MMMM y 'Ã' HH:mm:ss", locale='fr', timezone: 'Europe/Paris') }}</h1>
+<h1>{{ "now"|date("Y-m-d H:i:s")|format_datetime(pattern="EEEE d MMMM y 'Ã ' HH:mm:ss", locale='fr', timezone: 'Europe/Paris') }}</h1>
+<h2>Slug: {{ slug }}</h2>
 </body>
 </html>

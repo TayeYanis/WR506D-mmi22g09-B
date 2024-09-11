@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: symfony-setup">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: demo-pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/templates/demo/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/templates/demo/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,21 +298,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/demo-pages&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/yanis/buts5/www/WR506D&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/slugify",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/yanis/buts5/www/WR506D",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/wr506d/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -341,7 +336,7 @@
       <workItem from="1725972171557" duration="2477000" />
       <workItem from="1726051180096" duration="8132000" />
       <workItem from="1726068878370" duration="891000" />
-      <workItem from="1726069880467" duration="1323000" />
+      <workItem from="1726069880467" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -351,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725973241283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: demo-pages">
+      <option name="closed" value="true" />
+      <created>1726071488472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726071488473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +373,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: symfony-setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: symfony-setup" />
+    <MESSAGE value="feat: demo-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: demo-pages" />
   </component>
 </project>
