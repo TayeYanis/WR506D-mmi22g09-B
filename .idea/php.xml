@@ -274,6 +274,9 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/wr506d/vendor/twig/intl-extra" />
       <path value="$PROJECT_DIR$/wr506d/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/willdurand/negotiation" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
