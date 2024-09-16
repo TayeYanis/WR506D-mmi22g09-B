@@ -5,68 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: api-installation">
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/nelmio_cors.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/config/routes/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/migrations/Version20240916083914.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/ApiResource/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/ActorRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/MovieRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Service/Maile.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wr506d/templates/product/list.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wr506d/templates/product/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.env" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/assets/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/assets/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/assets/controllers/hello_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/assets/controllers/hello_controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/compose.override.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/compose.override.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/asset_mapper.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/asset_mapper.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/debug.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/mailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/mailer.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/messenger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/messenger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/monolog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/notifier.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/notifier.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/validator.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/preload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/routes/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/routes/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/importmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/importmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/migrations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/templates/demo/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/templates/demo/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/templates/test/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/templates/test/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/translations/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,7 +306,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/api-installation",
+    "git-widget-placeholder": "feature/product",
     "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/yanis/buts5/www/WR506D",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -399,7 +340,8 @@
       <workItem from="1726051180096" duration="8132000" />
       <workItem from="1726068878370" duration="891000" />
       <workItem from="1726069880467" duration="4190000" />
-      <workItem from="1726467249118" duration="9105000" />
+      <workItem from="1726467249118" duration="10227000" />
+      <workItem from="1726498706258" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -425,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726072679814</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: api-installation">
+      <option name="closed" value="true" />
+      <created>1726477244958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726477244958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
