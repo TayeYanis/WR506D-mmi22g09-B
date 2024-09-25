@@ -10,6 +10,7 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ActorRepository::class)]
+#[ORM\HasLifecycleCallbacks]
 #[ApiResource]
 class Actor
 {
@@ -160,9 +161,10 @@ class Actor
         return $this;
     }
 
-    public function getCreatedAt(): ?\DateTimeImmutable
+    #[ORM\PrePersist]
+    public function setCreatedAtValue(): void
     {
-        return $this->createdAt;
+        $this->createdAt = new \DateTimeImmutable();
     }
 
     public function setCreatedAt(?\DateTimeImmutable $createdAt): static

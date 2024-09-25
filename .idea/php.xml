@@ -277,6 +277,7 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/api-platform/core" />
       <path value="$PROJECT_DIR$/wr506d/vendor/nelmio/cors-bundle" />
       <path value="$PROJECT_DIR$/wr506d/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/webonyx/graphql-php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
