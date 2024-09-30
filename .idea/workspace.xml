@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: product">
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: graphql-installation">
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/.env" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/migrations/Version20240916083914.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/migrations/Version20240916083914.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,6 +303,10 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/nelmio/cors-bundle" />
       <path value="$PROJECT_DIR$/wr506d/vendor/willdurand/negotiation" />
       <path value="$PROJECT_DIR$/wr506d/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/xylis/faker-cinema-providers" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -308,22 +317,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/product&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/yanis/buts5/www/WR506D&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/fixtures",
+    "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/wr506d/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -357,6 +366,12 @@
       <workItem from="1727082969441" duration="3830000" />
       <workItem from="1727158358417" duration="1036000" />
       <workItem from="1727179502066" duration="598000" />
+      <workItem from="1727251252423" duration="3551000" />
+      <workItem from="1727269086850" duration="430000" />
+      <workItem from="1727682644486" duration="34000" />
+      <workItem from="1727688928955" duration="711000" />
+      <workItem from="1727698162317" duration="1559000" />
+      <workItem from="1727700201279" duration="5001000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -398,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726501493177</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: graphql-installation">
+      <option name="closed" value="true" />
+      <created>1727251555551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727251555551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +444,8 @@
     <MESSAGE value="feat: slugify" />
     <MESSAGE value="feat: api-installation" />
     <MESSAGE value="feat: product" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: product" />
+    <MESSAGE value="feat: graphql-installation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: graphql-installation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
