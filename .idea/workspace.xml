@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: graphql-installation">
-      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: fixtures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.env" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/migrations/Version20240916083914.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/migrations/Version20240916083914.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Service/Maile.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,22 +307,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/fixtures",
-    "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/fixtures&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yanis/PhpstormProjects/WR505D-EVAL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/wr506d/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -371,7 +361,8 @@
       <workItem from="1727682644486" duration="34000" />
       <workItem from="1727688928955" duration="711000" />
       <workItem from="1727698162317" duration="1559000" />
-      <workItem from="1727700201279" duration="5001000" />
+      <workItem from="1727700201279" duration="10213000" />
+      <workItem from="1727780909845" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -421,7 +412,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727251555551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: fixtures">
+      <option name="closed" value="true" />
+      <created>1727714661094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727714661094</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: fixtures">
+      <option name="closed" value="true" />
+      <created>1727714687779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727714687779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +452,8 @@
     <MESSAGE value="feat: api-installation" />
     <MESSAGE value="feat: product" />
     <MESSAGE value="feat: graphql-installation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: graphql-installation" />
+    <MESSAGE value="feat: fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fixtures" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
