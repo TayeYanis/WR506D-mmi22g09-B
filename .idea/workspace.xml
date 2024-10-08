@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: fixtures">
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: fixtures_image-url-version-4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Service/Maile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,6 +323,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\yanis\buts5\www\WR506D\wr506d\src\Resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/wr506d/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -363,6 +368,12 @@
       <workItem from="1727698162317" duration="1559000" />
       <workItem from="1727700201279" duration="10213000" />
       <workItem from="1727780909845" duration="480000" />
+      <workItem from="1727806790425" duration="450000" />
+      <workItem from="1727885187857" duration="2356000" />
+      <workItem from="1728139198509" duration="64000" />
+      <workItem from="1728383207427" duration="1179000" />
+      <workItem from="1728390858361" duration="2626000" />
+      <workItem from="1728394242035" duration="7869000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -428,7 +439,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727714687779</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: fixtures_image-url-version-2">
+      <option name="closed" value="true" />
+      <created>1727806880140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727806880140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: fixtures_image-url-version-3">
+      <option name="closed" value="true" />
+      <created>1728390962663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728390962663</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: fixtures_image-url-version-4">
+      <option name="closed" value="true" />
+      <created>1728407442206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728407442206</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +488,10 @@
     <MESSAGE value="feat: product" />
     <MESSAGE value="feat: graphql-installation" />
     <MESSAGE value="feat: fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fixtures" />
+    <MESSAGE value="feat: fixtures_image-url-version-2" />
+    <MESSAGE value="feat: fixtures_image-url-version-3" />
+    <MESSAGE value="feat: fixtures_image-url-version-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fixtures_image-url-version-4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
