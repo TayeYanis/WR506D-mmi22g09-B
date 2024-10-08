@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DataFixture;
+namespace App\Resources;
 
 class ActorImages
 {

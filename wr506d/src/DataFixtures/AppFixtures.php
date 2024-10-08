@@ -11,8 +11,8 @@ use Faker\Factory;
 use Xylis\FakerCinema\Provider\Movie as MovieProvider;
 use Xylis\FakerCinema\Provider\Person as PersonProvider;
 use DateTimeImmutable;
-use App\DataFixture\MovieImages;
-use App\DataFixture\ActorImages;
+use App\Resources\MovieImages;
+use App\Resources\ActorImages;
 
 class AppFixtures extends Fixture
 {
