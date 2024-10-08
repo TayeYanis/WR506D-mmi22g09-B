@@ -1,0 +1,50 @@
+<?php
+
+namespace App\DataFixture;
+
+class ActorImages
+{
+    public const ACTOR_IMAGE_PATHS = [
+      '/zrHOD8p6avOBOsHWu0y3kCKSksc.jpg',
+      '/v95wU1gpSLAOJS5yKFTxyheXAW2.jpg',
+      '/yHZsZH9AHJbaRiHSWiKQamIeHWa.jpg',
+      '/hgTH1l7pT8BbfTJgCOpTeBfAkVo.jpg',
+      '/1bKfKw22NRTOULz3ZZlT03ynUgB.jpg',
+      '/pgPJGf2wAPgoC6Bp5PBJYQV7IVt.jpg',
+      '/kTGN0XEuKL0m1UayuxcZ8dedXmo.jpg',
+      '/8imUoP6Y74jyFg1AhCqHXSIdce1.jpg',
+      '/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg',
+      '/pV2wYJiiPd6cgHK580PKD0GM4Dc.jpg',
+      '/30O1Af0wy6UBt8EpVRuq28tTGoT.jpg',
+      '/3nRgOQylYbNuDiddtNoh8uWTz5P.jpg',
+      '/uwl0WKqHj6ahsriOEPLks84T70j.jpg',
+      '/797zOEmnQnCKDTPGqU8yc2wjKJZ.jpg',
+      '/nWqwLS8w72eOMQTDrUiBYrgHxsf.jpg',
+      '/tA0n2mvKpBFrfKGm8uaLx9lK2tV.jpg',
+      '/sZZCXlV98Tu1xmlCwvgMNscusas.jpg',
+      '/tUfoM95x70Qsb1ElClPSpSrZQ2v.jpg',
+      '/pxTY4SglLo5hFcMH00MxPeC5u55.jpg',
+      '/cc1SfVFctuYH353NgxXNBoAFX2d.jpg',
+      '/coC58ANiDbqRIyle5zEl9QDektf.jpg',
+      '/bAwn2jF0X67qUzmO27X34THLJ4w.jpg',
+      '/obzfMyUaRSnpw7eMh25nGjmmXZ2.jpg',
+      '/2omPfeMdnicJqqvgKAU2iqVyD4Z.jpg',
+      '/lS9DOi0kF8xZdN8tzvJWUKZ6ANY.jpg',
+      '/p1HXYttPQ3RaB4oDt3EOfNPRpb4.jpg',
+      '/v0b5PSffU01URzsaeZM1J4WxJ3r.jpg',
+      '/td6xafDcxBppn2htmPm7C2TekYW.jpg',
+      '/rv3I4uxbNW8gX7u0SbSTLjsNVE.jpg',
+      '/108fiNM6poRieMg7RIqLJRxdAwG.jpg',
+      '/yrXuBIMddKtsI7PY3QFp9rP8O8U.jpg',
+      '/n4TCVSXaweXn2YbFXYAKTyOH7EO.jpg',
+      '/rXKWMOkcHLFdPKurYXEYk0R69rG.jpg',
+      '/ahn52RlI7ryajzoCV75gZXrL3hd.jpg',
+      '/scAXtdOJmXGpSyxLnE2guXh1Nwe.jpg',
+      '/4mbWqUpMrzSCGKFCgWli3UUR3Bv.jpg',
+      '/eQx5zsmvPkjaWiMh5fMQMSCJUwC.jpg',
+      '/97NkocCiLUwNzMDYjngSm5soGlN.jpg',
+      '/zrHOD8p6avOBOsHWu0y3kCKSksc.jpg',
+      '/v95wU1gpSLAOJS5yKFTxyheXAW2.jpg',
+      '/yHZsZH9AHJbaRiHSWiKQamIeHWa.jpg',
+    ];
+}
