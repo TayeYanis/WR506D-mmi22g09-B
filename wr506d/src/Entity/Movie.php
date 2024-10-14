@@ -32,24 +32,47 @@ class Movie
     private ?int $id = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\Length(
+        min: 3,
+        max: 250,
+        minMessage: 'Your username must be at least {{ limit }} characters long',
+        maxMessage: 'Your usernanme cannot be longer than {{ limit }} characters',
+    )]
     private ?string $title = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     private ?string $description = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
+    #[Assert\Date]
     private ?\DateTimeInterface $releaseDate = null;
 
     #[ORM\Column(nullable: true)]
     private ?int $duration = null;
-
+    #[Assert\Range(
+        min: 50,
+        max: 200,
+        notInRangeMessage: 'You must be between {{ min }}min cm and {{ max }}min cm tall to enter',
+    )]
     #[ORM\Column(nullable: true)]
     private ?int $entries = null;
 
     #[ORM\Column(length: 255, nullable: true)]
+    #[Assert\Length(
+        min: 3,
+        max: 255,
+        minMessage: 'Your username must be at least {{ limit }} characters long',
+        maxMessage: 'Your usernanme cannot be longer than {{ limit }} characters',
+    )]
+
     private ?string $director = null;
 
     #[ORM\Column(nullable: true)]
+    #[Assert\Range(
+        min: 0,
+        max: 10,
+        notInRangeMessage: 'You must be between {{ min }}cm and {{ max }}cm tall to enter',
+    )]
     private ?float $rating = null;
 
     #[ORM\Column(length: 255, nullable: true)]

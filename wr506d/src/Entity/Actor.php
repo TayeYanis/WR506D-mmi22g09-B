@@ -15,6 +15,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 
 #[ORM\Entity(repositoryClass: ActorRepository::class)]
@@ -34,27 +35,61 @@ class Actor
     private ?int $id = null;
 
     #[ORM\Column(length: 255, nullable: true)]
+    #[Assert\Length(
+        min: 3,
+        max: 50,
+        minMessage: 'Your username must be at least {{ limit }} characters long',
+        maxMessage: 'Your usernanme cannot be longer than {{ limit }} characters',
+    )]
     private ?string $lastname = null;
 
+
     #[ORM\Column(length: 255, nullable: true)]
+    #[Assert\Length(
+        min: 3,
+        max: 50,
+        minMessage: 'Your username must be at least {{ limit }} characters long',
+        maxMessage: 'Your usernanme cannot be longer than {{ limit }} characters',
+    )]
     private ?string $firstname = null;
 
+
+
     #[ORM\Column(type: Types::DATE_MUTABLE)]
+    #[Assert\Date]
     private ?\DateTimeInterface $dob = null;
 
     #[ORM\Column(nullable: true)]
+    #[Assert\IsNull]
+    #[Assert\Range(
+        min: 4,
+        max: 12,
+        notInRangeMessage: 'You must be between {{ min }}cm and {{ max }}cm tall to enter',
+    )]
     private ?int $awards = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
+    #[Assert\NotBlank]
+    #[Assert\Length(
+        min: 30,
+        max: 300,
+        minMessage: 'Your first name must be at least {{ limit }} characters long',
+        maxMessage: 'Your first name cannot be longer than {{ limit }} characters',
+    )]
     private ?string $bio = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\Country]
     private ?string $nationality = null;
 
     #[ORM\Column(length: 255, nullable: true)]
+    #[Assert\Url]
+    #[Assert\NotBlank]
     private ?string $media = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\Choice(['male', 'female'])]
+    #[Assert\NotBlank]
     private ?string $gender = null;
 
     #[ORM\Column(nullable: true)]
@@ -71,6 +106,8 @@ class Actor
     private Collection $movies;
 
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
+    #[Assert\IsNull]
+    #[Assert\Date]
     private ?\DateTimeInterface $deathDate = null;
 
     public function __construct()
