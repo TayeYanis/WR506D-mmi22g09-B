@@ -284,6 +284,9 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/xylis/faker-cinema-providers" />
       <path value="$PROJECT_DIR$/wr506d/vendor/vich/uploader-bundle" />
       <path value="$PROJECT_DIR$/wr506d/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
