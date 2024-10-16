@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: mediaobject">
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/vich_uploader.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/migrations/Version20241014072534.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/MediaObjectRepository.php" afterDir="false" />
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: user_token">
+      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/migrations/Version20241016130131.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/.env" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -307,6 +311,9 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/xylis/faker-cinema-providers" />
       <path value="$PROJECT_DIR$/wr506d/vendor/vich/uploader-bundle" />
       <path value="$PROJECT_DIR$/wr506d/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/lexik/jwt-authentication-bundle" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -322,7 +329,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/mediaobject",
+    "git-widget-placeholder": "feature/user__token",
     "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -391,7 +398,8 @@
       <workItem from="1728541414479" duration="4207000" />
       <workItem from="1728829317332" duration="9737000" />
       <workItem from="1728891942052" duration="491000" />
-      <workItem from="1729059238564" duration="1018000" />
+      <workItem from="1729059238564" duration="4568000" />
+      <workItem from="1729079836023" duration="6867000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -489,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728887619229</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: mediaobject">
+      <option name="closed" value="true" />
+      <created>1729060323484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729060323484</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +535,8 @@
     <MESSAGE value="feat: fixtures_image-url-version-4" />
     <MESSAGE value="feat: assert" />
     <MESSAGE value="feat: mediaobject" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mediaobject" />
+    <MESSAGE value="feat: user_token" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: user_token" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

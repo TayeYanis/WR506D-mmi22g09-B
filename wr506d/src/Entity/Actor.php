@@ -56,11 +56,9 @@ class Actor
 
 
     #[ORM\Column(type: Types::DATE_MUTABLE)]
-    #[Assert\Date]
     private ?\DateTimeInterface $dob = null;
 
     #[ORM\Column(nullable: true)]
-    #[Assert\IsNull]
     #[Assert\Range(
         min: 4,
         max: 12,
@@ -106,7 +104,6 @@ class Actor
     private Collection $movies;
 
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
-    #[Assert\IsNull]
     #[Assert\Date]
     private ?\DateTimeInterface $deathDate = null;
 
