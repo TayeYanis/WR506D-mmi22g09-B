@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: fixtures_image-url-version-4">
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: mediaobject">
+      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/migrations/Version20241014072534.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/MediaObjectRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,6 +305,8 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/wr506d/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/wr506d/vendor/xylis/faker-cinema-providers" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -312,7 +322,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/filtre-api",
+    "git-widget-placeholder": "feature/mediaobject",
     "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -379,7 +389,9 @@
       <workItem from="1728478484034" duration="23000" />
       <workItem from="1728540630492" duration="697000" />
       <workItem from="1728541414479" duration="4207000" />
-      <workItem from="1728829317332" duration="6469000" />
+      <workItem from="1728829317332" duration="9737000" />
+      <workItem from="1728891942052" duration="491000" />
+      <workItem from="1729059238564" duration="1018000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -469,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728407442206</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: assert">
+      <option name="closed" value="true" />
+      <created>1728887619229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728887619229</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +517,9 @@
     <MESSAGE value="feat: fixtures_image-url-version-2" />
     <MESSAGE value="feat: fixtures_image-url-version-3" />
     <MESSAGE value="feat: fixtures_image-url-version-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fixtures_image-url-version-4" />
+    <MESSAGE value="feat: assert" />
+    <MESSAGE value="feat: mediaobject" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: mediaobject" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
