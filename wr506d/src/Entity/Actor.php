@@ -60,8 +60,8 @@ class Actor
 
     #[ORM\Column(nullable: true)]
     #[Assert\Range(
-        min: 4,
-        max: 12,
+        min: 0,
+        max: 10,
         notInRangeMessage: 'You must be between {{ min }}cm and {{ max }}cm tall to enter',
     )]
     private ?int $awards = null;
@@ -104,7 +104,6 @@ class Actor
     private Collection $movies;
 
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
-    #[Assert\Date]
     private ?\DateTimeInterface $deathDate = null;
 
     public function __construct()
@@ -212,6 +211,7 @@ class Actor
 
         return $this;
     }
+    
 
     #[ORM\PrePersist]
     public function setCreatedAtValue(): void

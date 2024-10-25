@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: user_token">
-      <change afterPath="$PROJECT_DIR$/wr506d/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/migrations/Version20241016130131.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wr506d/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.env" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: user_token" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +312,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/user__token",
     "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -399,7 +381,10 @@
       <workItem from="1728829317332" duration="9737000" />
       <workItem from="1728891942052" duration="491000" />
       <workItem from="1729059238564" duration="4568000" />
-      <workItem from="1729079836023" duration="6867000" />
+      <workItem from="1729079836023" duration="7167000" />
+      <workItem from="1729425999624" duration="1838000" />
+      <workItem from="1729684961970" duration="529000" />
+      <workItem from="1729794994900" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -505,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729060323484</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: user_token">
+      <option name="closed" value="true" />
+      <created>1729090287111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729090287112</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

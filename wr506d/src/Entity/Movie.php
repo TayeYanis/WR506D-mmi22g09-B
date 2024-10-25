@@ -48,13 +48,15 @@ class Movie
     private ?\DateTimeInterface $releaseDate = null;
 
     #[ORM\Column(nullable: true)]
-    private ?int $duration = null;
     #[Assert\Range(
         min: 50,
         max: 200,
         notInRangeMessage: 'You must be between {{ min }}min cm and {{ max }}min cm tall to enter',
     )]
+    private ?int $duration = null;
+
     #[ORM\Column(nullable: true)]
+    #[Assert\Range(min: 0)]
     private ?int $entries = null;
 
     #[ORM\Column(length: 255, nullable: true)]
@@ -78,7 +80,7 @@ class Movie
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $media = null;
 
-    #[ORM\Column]
+    #[ORM\Column(nullable: true)]
     private ?\DateTimeImmutable $createdAt = null;
 
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
