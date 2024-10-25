@@ -5,6 +5,7 @@ namespace App\DataFixtures;
 use App\Entity\Movie;
 use App\Entity\Actor;
 use App\Entity\Category;
+use App\Entity\User;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Faker\Factory;
@@ -83,6 +84,15 @@ class AppFixtures extends Fixture
 
             $manager->persist($movie);
         }
+
+
+        $user = new User();
+        $user->setEmail('user@gmail.com')
+            ->setPassword(password_hash('password', PASSWORD_BCRYPT)) // <-- Utilise un hasher sécurisé
+            ->setRoles(['ROLE_ADMIN']);
+
+        $manager->persist($user);
+
 
 
         $manager->flush();
