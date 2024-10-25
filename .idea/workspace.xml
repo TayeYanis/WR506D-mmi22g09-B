@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: user_token" />
+    <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: rendu_projetVuejs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,6 +314,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/user__token",
     "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -385,6 +388,7 @@
       <workItem from="1729425999624" duration="1838000" />
       <workItem from="1729684961970" duration="529000" />
       <workItem from="1729794994900" duration="547000" />
+      <workItem from="1729857948282" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -498,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729090287112</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: rendu_projetVuejs">
+      <option name="closed" value="true" />
+      <created>1729858074022</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729858074025</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +541,8 @@
     <MESSAGE value="feat: assert" />
     <MESSAGE value="feat: mediaobject" />
     <MESSAGE value="feat: user_token" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: user_token" />
+    <MESSAGE value="feat: rendu_projetVuejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: rendu_projetVuejs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

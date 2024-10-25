@@ -85,6 +85,7 @@ class AppFixtures extends Fixture
             $manager->persist($movie);
         }
 
+
         $user = new User();
         $user->setEmail('user@gmail.com')
             ->setPassword(password_hash('password', PASSWORD_BCRYPT)) // <-- Utilise un hasher sécurisé
