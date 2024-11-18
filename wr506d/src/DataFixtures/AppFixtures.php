@@ -31,7 +31,7 @@ class AppFixtures extends Fixture
             $category = new Category();
             $category->setTitle($title)
                 ->setCreatedAt(new DateTimeImmutable())
-                ->setUpdatedAt($faker->optional(0.8)->dateTimeBetween( 'now'));
+                ->setUpdatedAt($faker->optional(0.8)->dateTimeBetween('now'));
             $manager->persist($category);
             $categories[] = $category;
         }
@@ -69,7 +69,7 @@ class AppFixtures extends Fixture
                 ->setRating($faker->randomFloat(1, 0, 10))
                 ->setMedia(self::IMAGE_BASE_URL . $faker->randomElement(MovieImages::MOVIE_IMAGE_PATHS))
                 ->setCreatedAt(new DateTimeImmutable())
-                ->setUpdatedAt($faker->optional(0.9)->dateTimeBetween( 'now'));
+                ->setUpdatedAt($faker->optional(0.9)->dateTimeBetween('now'));
 
 
             $actorsForMovie = $faker->randomElements($actors, $faker->numberBetween(3, 5));

@@ -17,11 +17,16 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
-
 #[ORM\Entity(repositoryClass: ActorRepository::class)]
 #[ORM\HasLifecycleCallbacks]
 #[ApiResource]
-#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'firstname' => 'start', 'lastname' => 'start', 'nationality' => 'exact', 'gender' => 'start', 'bio' => 'partial', 'movies.title' => 'partial'])]
+#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact',
+    'firstname' => 'start',
+    'lastname' => 'start',
+    'nationality' => 'exact',
+    'gender' => 'start',
+    'bio' => 'partial',
+    'movies.title' => 'partial'])]
 #[ApiFilter(DateFilter::class, properties: ['dob'])]
 #[ApiFilter(RangeFilter::class, properties: ['awards'])]
 #[ApiFilter(ExistsFilter::class, properties: ['deathDate'])]
@@ -219,6 +224,11 @@ class Actor
         $this->createdAt = new \DateTimeImmutable();
     }
 
+    public function getCreatedAt(): ?\DateTimeImmutable
+    {
+        return $this->createdAt;
+    }
+
     public function setCreatedAt(?\DateTimeImmutable $createdAt): static
     {
         $this->createdAt = $createdAt;
@@ -271,6 +281,17 @@ class Actor
     {
         $this->deathDate = $deathDate;
 
+        return $this;
+    }
+
+    public function getMediaObject(): ?MediaObject
+    {
+        return $this->MediaObject;
+    }
+
+    public function setMediaObject(?MediaObject $MediaObject): self
+    {
+        $this->MediaObject = $MediaObject;
         return $this;
     }
 }

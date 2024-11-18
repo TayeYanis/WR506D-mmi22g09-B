@@ -67,12 +67,21 @@ class MediaObject
     public ?string $filePath = null;
 
     #[ORM\OneToMany(mappedBy: 'MediaObject', targetEntity: Movie::class)]
+    /**
+     * @var Collection<int, Movie>
+     */
     private Collection $movies;
 
     #[ORM\OneToMany(mappedBy: 'MediaObject', targetEntity: Actor::class)]
+    /**
+     * @var Collection<int, Actor>
+     */
     private Collection $actors;
 
     #[ORM\OneToMany(mappedBy: 'MediaObject', targetEntity: Category::class)]
+    /**
+     * @var Collection<int, Category>
+     */
     private Collection $categories;
 
     public function __construct()

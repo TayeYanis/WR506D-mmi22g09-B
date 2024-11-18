@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: rendu_projetVuejs">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Resources/ActorImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Resources/ActorImages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Resources/MovieImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Resources/MovieImages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Service/Slugify.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Service/Slugify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,6 +316,8 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/clock" />
       <path value="$PROJECT_DIR$/wr506d/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/phpstan/phpstan" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -309,22 +328,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/user__token",
-    "last_opened_file_path": "C:/Users/Yanis/PhpstormProjects/WR505D-EVAL",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/user__token&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yanis/PhpstormProjects/WR505D-EVAL&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-20.04\home\yanis\buts5\www\WR506D\wr506d\src\Resources" />
@@ -388,7 +407,10 @@
       <workItem from="1729425999624" duration="1838000" />
       <workItem from="1729684961970" duration="529000" />
       <workItem from="1729794994900" duration="547000" />
-      <workItem from="1729857948282" duration="242000" />
+      <workItem from="1729857948282" duration="605000" />
+      <workItem from="1729863643733" duration="1133000" />
+      <workItem from="1731055154772" duration="8356000" />
+      <workItem from="1731913819093" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -510,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729858074025</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: rendu_projetVuejs">
+      <option name="closed" value="true" />
+      <created>1729858436158</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729858436159</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
