@@ -19,7 +19,13 @@ use Doctrine\ORM\Mapping as ORM;
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
 #[ORM\HasLifecycleCallbacks]
 #[ApiResource]
-#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'title' => 'partial', 'director' => 'exact', 'description' => 'partial', 'categories.title' => 'partial', 'actors.firstname' => 'partial', 'actors.lastname' => 'partial'])]
+#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact',
+    'title' => 'partial',
+    'director' => 'exact',
+    'description' => 'partial',
+    'categories.title' => 'partial',
+    'actors.firstname' => 'partial',
+    'actors.lastname' => 'partial'])]
 #[ApiFilter(DateFilter::class, properties: ['releaseDate'])]
 #[ApiFilter(RangeFilter::class, properties: ['duration','entries', 'rating'])]
 #[ApiFilter(OrderFilter::class, properties: ['duration', 'entries'])]
@@ -283,6 +289,17 @@ class Movie
     {
         $this->categories->removeElement($category);
 
+        return $this;
+    }
+
+    public function getMediaObject(): ?MediaObject
+    {
+        return $this->MediaObject;
+    }
+
+    public function setMediaObject(?MediaObject $MediaObject): self
+    {
+        $this->MediaObject = $MediaObject;
         return $this;
     }
 }

@@ -10,6 +10,8 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 #[ORM\Entity(repositoryClass: CategoryRepository::class)]
 #[ORM\HasLifecycleCallbacks]
@@ -122,6 +124,17 @@ class Category
             $movie->removeCategory($this);
         }
 
+        return $this;
+    }
+
+    public function getMediaObject(): ?MediaObject
+    {
+        return $this->MediaObject;
+    }
+
+    public function setMediaObject(?MediaObject $MediaObject): self
+    {
+        $this->MediaObject = $MediaObject;
         return $this;
     }
 }

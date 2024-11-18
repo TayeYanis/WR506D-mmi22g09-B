@@ -287,6 +287,8 @@
       <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/wr506d/vendor/lcobucci/clock" />
       <path value="$PROJECT_DIR$/wr506d/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/wr506d/vendor/phpstan/phpstan" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
