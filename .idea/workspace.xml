@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="486a4fc1-f4cf-4229-ba09-28760d2275f6" name="Changes" comment="feat: testphp-correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Controller/DemoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Actor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/MediaObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/wr506d/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +399,7 @@
       <workItem from="1729857948282" duration="605000" />
       <workItem from="1729863643733" duration="1133000" />
       <workItem from="1731055154772" duration="8356000" />
-      <workItem from="1731913819093" duration="2491000" />
+      <workItem from="1731913819093" duration="3565000" />
     </task>
     <task id="LOCAL-00001" summary="feat: symfony-setup">
       <option name="closed" value="true" />
@@ -547,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731916293218</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: testphp-correction">
+      <option name="closed" value="true" />
+      <created>1731917287098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731917287098</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
